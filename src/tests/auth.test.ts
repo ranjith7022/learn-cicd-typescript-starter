@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import type { IncomingHttpHeaders } from "http";
-import { getAPIKey } from "src/api/auth.js";
+import { getAPIKey } from "@/api/auth.js";
 
 describe("getAPIKey", () => {
   it("returns API key when authorization header is valid", () => {
