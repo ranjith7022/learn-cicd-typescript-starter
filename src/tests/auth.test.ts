@@ -41,5 +41,3 @@ describe("getAPIKey", () => {
     expect(result).toBeNull();
   });
 });
-
-
